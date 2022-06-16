@@ -1,23 +1,25 @@
 import { password } from "../components/password.js";
-let ssenseuser = JSON.parse(localStorage.getItem("ssenseuser"));
+let ssenseuser = JSON.parse(localStorage.getItem("ssenseUser"));
 let thisuser = JSON.parse(localStorage.getItem("thisUser"));
 
 let chamber = document.getElementById("loginchamber");
-
 chamber.innerHTML = password();
+document.getElementById("email").value = thisuser.UserName;
 
-if(thisuser.UserName){
-    document.getElementById("email").value = thisuser.UserName;
-}
 let goToLogin = () => {
     event.preventDefault();
-    console.log("I am going Back");
     window.location = "../pages/login.html";
 }
 let goToHome = () => {
     event.preventDefault();
-    console.log("Password Entered");
-    window.location = "../pages/landingpage.html";
+    let pass = document.getElementById("password").value;
+    if(pass != ssenseuser.password){
+        alert("Sorry! Wrong Password!");     
+    }
+    else{
+        window.location = "../pages/landingpage.html";
+    }
+    console.log(pass);
 }
 document.getElementById("passform").addEventListener("submit", goToHome)
 document.getElementById("wdetails").addEventListener("click", goToLogin)
