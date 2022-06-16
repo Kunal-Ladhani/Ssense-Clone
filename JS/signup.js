@@ -1,18 +1,18 @@
 // SignUp JavaScript File
 
-import { createaccount } from "../components/createaccount.js";
+import { createaccount } from "../Components/createaccount.js";
 let ssenseuser = JSON.parse(localStorage.getItem("ssenseUser"));
 let thisuser = JSON.parse(localStorage.getItem("thisUser"));
 
 let chamber = document.getElementById("loginchamber");
 chamber.innerHTML = createaccount();
 
-if(thisuser.UserName){
+if (thisuser.UserName) {
     document.getElementById("email").value = thisuser.UserName;
 }
 let goToLogin = () => {
     event.preventDefault();
-    window.location = "../pages/login.html";
+    window.location = "../HTML/login.html";
 }
 let newSsenseUser = () => {
     event.preventDefault();
@@ -24,7 +24,7 @@ let newSsenseUser = () => {
     thisuser.gender = gender;
     localStorage.setItem("thisUser", JSON.stringify(thisuser));
     localStorage.setItem("ssenseUser", JSON.stringify(ssenseuser));
-    window.location = "../pages/landingpage.html";
+    window.location = "../HTML/landingpage.html";
 }
 document.getElementById("newform").addEventListener("submit", newSsenseUser);
 document.getElementById("back").addEventListener("click", goToLogin);
