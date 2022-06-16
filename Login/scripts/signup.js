@@ -26,7 +26,6 @@ let newSsenseUser = () => {
     thisuser.gender = gender;
     localStorage.setItem("thisUser", JSON.stringify(thisuser));
     localStorage.setItem("ssenseUser", JSON.stringify(ssenseuser));
-    console.log("Hey I am new User");
     window.location = "../pages/landingpage.html";
 }
 document.getElementById("newform").addEventListener("submit", newSsenseUser);

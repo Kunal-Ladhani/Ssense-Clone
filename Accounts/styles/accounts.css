@@ -1,0 +1,91 @@
+/* Login CSS File */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#scontainer {
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.acdetail {
+    text-align: center;
+}
+
+#ssidebar {
+    width: 150px;
+    height: fit-content;
+    margin-top: 85px;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+#acchamber {
+    font-family: 'Poppins', sans-serif;
+    width: 500px;
+    margin: auto;
+    margin-left: 15%;
+    padding: 20px;
+}
+
+#acchamber>h5,
+#accountform>h5 {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#acchamber>p,
+#ssidebar>p {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.AcInputs {
+    border: 1px solid black;
+    width: 97%;
+    padding: 5px;
+}
+
+.AcInputs:focus {
+    outline: none;
+}
+
+.anchor {
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.anchor:hover {
+    text-decoration: underline;
+}
+
+.label {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+#submitform {
+    display: flex;
+    justify-content: center;
+}
+
+#submit {
+    width: max-content;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#accountform>#email {
+    border: 1px solid grey;
+    cursor: not-allowed;
+}
