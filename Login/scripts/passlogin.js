@@ -4,8 +4,8 @@ let thisuser = JSON.parse(localStorage.getItem("thisUser"));
 
 let chamber = document.getElementById("loginchamber");
 chamber.innerHTML = password();
-document.getElementById("email").value = thisuser.UserName;
 
+document.getElementById("email").value = thisuser.UserName;
 let goToLogin = () => {
     event.preventDefault();
     window.location = "../pages/login.html";
@@ -19,7 +19,6 @@ let goToHome = () => {
     else{
         window.location = "../pages/landingpage.html";
     }
-    console.log(pass);
 }
 document.getElementById("passform").addEventListener("submit", goToHome)
 document.getElementById("wdetails").addEventListener("click", goToLogin)

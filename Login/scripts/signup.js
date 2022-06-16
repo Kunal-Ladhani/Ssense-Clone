@@ -5,7 +5,6 @@ let ssenseuser = JSON.parse(localStorage.getItem("ssenseUser"));
 let thisuser = JSON.parse(localStorage.getItem("thisUser"));
 
 let chamber = document.getElementById("loginchamber");
-
 chamber.innerHTML = createaccount();
 
 if(thisuser.UserName){
@@ -13,7 +12,6 @@ if(thisuser.UserName){
 }
 let goToLogin = () => {
     event.preventDefault();
-    console.log("I am going Back");
     window.location = "../pages/login.html";
 }
 let newSsenseUser = () => {

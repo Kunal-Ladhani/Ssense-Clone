@@ -18,7 +18,6 @@ let getUser = () => {
     }
     let newuser1 = new User(username);
     let newuser = newuser1;
-    console.log(newuser1.UserName);
     if(ssenseuser1 == null)
     {            
         localStorage.setItem("thisUser", JSON.stringify(newuser));
