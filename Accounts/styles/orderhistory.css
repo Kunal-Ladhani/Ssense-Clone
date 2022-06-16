@@ -1,0 +1,10 @@
+#ordercontainer{
+    width: 700px;
+    margin: auto;
+    margin-top: 35px;
+    margin-left: 10%;
+}
+#orderdetails>h5{
+    font-weight: bold;
+    font-size: 13px;
+}

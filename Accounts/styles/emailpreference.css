@@ -1,0 +1,29 @@
+.sel {
+    margin:0 3%;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#newsselect, #prefselect, #enotification{
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+}
+.select{
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
+input[type="radio"]{
+    accent-color: black;
+    cursor: pointer;
+}
+select{
+    width: 100%;
+    margin-top: 7px;
+    padding:3px;
+    cursor: pointer;
+}
+select:focus{
+    outline: none;
+}
