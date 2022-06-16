@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#navbar{
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    min-height: 55px;
+    text-transform: uppercase;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+#navbar > #navbar-left, #navbar-rigth{
+    display: flex;
+}
+#navbar > #navbar-left{
+    /* border: 1px solid green; */
+    width: 40%;
+    min-height: 55px;
+    justify-content: right;
+    margin-right: 15%;
+}
+#navbar > #navbar-right{
+    /* border: 1px solid black; */
+    width: 40%;
+    min-height: 55px;
+    margin-left: 15%;
+    /* justify-content: right; */
+}
+#navbar-left > .links > a {
+    /* border: 1px solid red; */
+    margin-left: 10px;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+#navbar-left > .links > a:hover {
+    text-decoration: underline;
+}
+#navbar-right > .links2 > a {
+    /* border: 1px solid red; */
+    margin-left: 10px;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+#navbar-right > .links2 > a:hover {
+    text-decoration: underline;
+}
+#navbar > #icon{
+    /* border: 1px solid blue; */
+    width: 10%;
+    min-height: 55px;
+}
+#navbar-left > .links{
+    /* border: 1px solid green; */
+    margin-top: 18px;
+    cursor: pointer;
+}
+#navbar-right > .links2{
+    /* border: 1px solid green; */
+    margin-top: 18px;
+    cursor: pointer;
+}
+#navbar > #icon > img{
+    height: 25px;
+    margin-top: 15px;
+}
