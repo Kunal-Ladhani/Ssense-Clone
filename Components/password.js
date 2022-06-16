@@ -8,7 +8,7 @@ let password = () => {
             <input type="password" class="AcInputs" id="password" required><br><br>
             <input type="submit" value="CONTINUE" id="submit">
             <label class="label" ><a>Forgot your password?</a></label>
-            <label class="label" id="wdetails"><a>Not your email?</a></label>
+            <label class="label"><a href="./login.html">Not your email?</a></label>
         </form>`;
 }
 

@@ -1,6 +1,6 @@
 // Login JavaScript File
 
-import { login } from "../components/logedin.js";
+import { login } from "../Components/logedin.js";
 
 let chamber = document.getElementById("loginchamber");
 chamber.innerHTML = login();
@@ -18,22 +18,19 @@ let getUser = () => {
     }
     let newuser1 = new User(username);
     let newuser = newuser1;
-    if(ssenseuser1 == null)
-    {            
+    if (ssenseuser1 == null) {
         localStorage.setItem("thisUser", JSON.stringify(newuser));
         localStorage.setItem("ssenseUser", JSON.stringify(newuser1));
-        window.location = "../pages/signup.html";
+        window.location = "../HTML/signup.html";
     }
-    else if(newuser1.UserName != ssenseuser1.UserName)
-    {
+    else if (newuser1.UserName != ssenseuser1.UserName) {
         localStorage.setItem("thisUser", JSON.stringify(newuser));
         localStorage.setItem("ssenseUser", JSON.stringify(newuser1));
-        window.location = "../pages/signup.html";
+        window.location = "../HTML/signup.html";
     }
-    else if(newuser1.UserName == ssenseuser1.UserName)
-    {
+    else if (newuser1.UserName == ssenseuser1.UserName) {
         localStorage.setItem("thisUser", JSON.stringify(newuser));
-        window.location = "../pages/passlogin.html";
+        window.location = "../HTML/passlogin.html";
     }
 }
 document.getElementById("loginform").addEventListener("submit", getUser);
