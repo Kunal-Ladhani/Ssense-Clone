@@ -1,0 +1,19 @@
+#addresschamber{
+    width: 500px;
+    margin-left: 15%;
+    height: fit-content;
+    padding: 20px;
+}
+#addaddress{
+    display: flex;
+    justify-content: center;
+}
+#submitaddress{
+    width: max-content;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-size: 12px;
+}
