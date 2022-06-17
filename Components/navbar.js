@@ -1,6 +1,5 @@
 function navbar() {
-  return `<div id="navbar">
-    <div id="navbar-left">
+  return `<div id="navbar-left">
       <div class="links">
         <a href="#">MENSWEAR</a>
         <a href="#">WOMENSWEAR</a>
@@ -45,8 +44,7 @@ function navbar() {
           >SHOPPING BAG (<div id="item_count"><!--append cart-items-count here--></div>)</a
         >
       </div>
-    </div>
-  </div>`;
+    </div>`;
 }
 
 export { navbar };

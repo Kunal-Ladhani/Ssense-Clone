@@ -1,6 +1,5 @@
 function footer() {
-  return `<div id="footer">
-  <div id="top-footer">
+  return `<div id="top-footer">
       <div class="links">
           <a href="#">COUNTRY/REGION:INDIA</a>
           <a href="#">NEWSLETTER SIGNUP</a>
@@ -26,7 +25,6 @@ function footer() {
               <a href="https://www.youtube.com/user/ssense"><img src="../images/youtube.svg" alt="youtube.com"></a>
           </div>
       </div>
-  </div>
-</div>`
+  </div>`
 }
 export { footer };
