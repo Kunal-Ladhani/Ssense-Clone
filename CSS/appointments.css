@@ -1,0 +1,45 @@
+#appointcontainer{
+    width: 800px;
+    margin: auto;
+    margin-top: 35px;
+    margin-left: 10%;
+    cursor: default;
+}
+#appointheader>h4{
+    text-align: center;
+}
+#visitingdiv, #locationdiv, #bookingdiv, #myappointmentdiv, #upcomingdiv, #pastdiv {
+    display: flex;
+}
+.headerdiv{
+    width: 13%;
+    height: max-content;
+    font-size: 12px;
+    font-weight: bold;
+}
+.infodiv{
+    width: 87%;
+    height: max-content;
+    font-size: 11.5px;
+    font-weight: bold;
+}
+.ssensemontreal{
+    width: 32%;
+    height: max-content;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.ssenseaddress{
+    width: 25%;
+    height: max-content;
+    font-size: 12px;
+    font-weight: bold;
+}
+.appointbutton{
+    margin-top: 15px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px 39px;
+    cursor: pointer;
+}

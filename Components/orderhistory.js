@@ -7,7 +7,7 @@ let orderhistory = () =>{
         <a class="anchor" href="./orderhistory.html">Order History</a><br>
         <a class="anchor" href="./appointments.html">Appointments</a><br>
         <a class="anchor" href="./addresses.html">Addresses</a><br>
-        <a class="anchor" href="./login.html">Logout</a>
+        <a class="anchor" id="logout" href="./login.html">Logout</a>
     </div>
     <div id="ordercontainer">
         <div id="odetails">
