@@ -1,7 +1,7 @@
 let naddress = () => {
     return `
     <div id="ssidebar">
-        <p>Account</p>
+        <p>Account</p><br>
         <a class="anchor" href="./accounts.html">Account Details</a><br>
         <a class="anchor" href="./emailpreference.html">Email Preferences</a><br>
         <a class="anchor" href="./orderhistory.html">Order History</a><br>

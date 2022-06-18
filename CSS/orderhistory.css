@@ -1,8 +1,9 @@
 #ordercontainer{
     width: 700px;
     margin: auto;
-    margin-top: 35px;
+    margin-top: 130px;
     margin-left: 10%;
+    margin-bottom: 370px;
 }
 #orderdetails>h5{
     font-weight: bold;

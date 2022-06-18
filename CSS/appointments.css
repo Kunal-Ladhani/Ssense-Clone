@@ -1,8 +1,9 @@
 #appointcontainer{
     width: 800px;
     margin: auto;
-    margin-top: 35px;
+    margin-top: 95px;
     margin-left: 10%;
+    margin-bottom: 83px;
     cursor: default;
 }
 #appointheader>h3{
