@@ -732,6 +732,10 @@ function display_products(data){
         
         content_div.append(designer,name,price)
 
+        card.addEventListener("click",() => {
+          sendToProductPage(el)
+        });
+
         card.append(image_div,content_div)
 
         products.append(card)
@@ -2331,3 +2335,8 @@ function trendFun(){
     
 }
 
+let sendToProductPage = (elem) => {
+  console.log(elem);
+  localStorage.setItem("productData",JSON.stringify(elem));
+  window.location.href="../HTML/product.html";
+}
