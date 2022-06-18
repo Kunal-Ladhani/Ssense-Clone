@@ -11,7 +11,7 @@ let appointment = () => {
     </div>
     <div id="appointcontainer">
         <div id="appointheader">
-            <h4>Appointments</h4>
+            <h3>Appointments</h3>
         </div>
         <div id="acontainer">
             <div id="appointinfo">

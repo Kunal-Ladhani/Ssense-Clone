@@ -1,0 +1,35 @@
+select{
+    border: 1px solid;
+    width: 99.5%;
+    margin-top: 7px;
+    padding: 5px;
+    cursor: pointer;
+}
+select:focus{
+    outline: none;
+}
+#cancel{
+    width: 35%;
+    border: 1px solid;
+    background-color: white;
+    padding: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 12px;
+}
+#submitform{
+    gap: 20px;
+}
+#zipcode, #phoneno {
+    width: 48%;
+}
+#zippostalc,#phone{
+    width: 94%;
+}
+#zippostalphone{
+    display: flex;
+    justify-content: space-between;
+}
+input[type = "checkbox"]{
+    cursor: pointer;
+}
