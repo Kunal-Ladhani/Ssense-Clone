@@ -1,4 +1,4 @@
-let category
+let category;
 
 let categories = document.querySelectorAll(".elements>a")
 
@@ -715,17 +715,23 @@ function display_products(data){
         let image = document.createElement("img")
         image.src = el.image
         image_div.append(image)
+
         let designer = document.createElement("p")
         designer.innerText = el.designer.toUpperCase()
+
         let name = document.createElement("p")
         name.innerText = el.name
+
         let price = document.createElement("p")
         price.innerText = el.price
         
         content_div.append(designer,name,price)
 
-        card.append(image_div,content_div)
+        card.addEventListener("click",() => {
+          sendToProductPage(el)
+        });
 
+        card.append(image_div,content_div)
         products.append(card)
     })
 
@@ -2248,4 +2254,10 @@ function trendFun(){
         })
         display_products(newProd)
     } 
+}
+
+let sendToProductPage = (elem) => {
+  console.log(elem);
+  localStorage.setItem("productData",JSON.stringify(elem));
+  window.location.href="../HTML/product.html";
 }

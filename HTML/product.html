@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+    <link rel="stylesheet" href="../CSS/product.css" />
+    <link rel="stylesheet" href="../CSS/navbar.css" />
+    <link rel="stylesheet" href="../CSS/footer.css" />
+  </head>
+  <body>
+    <div id="page">
+      <div id="navbar"></div>
+      <div id="prodMain">
+        <div id="leftDetails">
+          <p id="prodName"></p>
+          <p id="prodDesigner"></p>
+          <p id="prodCategory"></p>
+          <p>Logo printed at back</p>
+          <p>Made in South Korea.</p>
+          <p>221704M202003</p>
+        </div>
+        <div id="images">
+          <div id="img1">
+            <img
+              src="https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/221704M202003_1/wooyoungmi-grey-cotton-hoodie.jpg"
+              alt=""
+              id="mainProductImage"
+            />
+          </div>
+          <!-- 
+          <div id="img2">
+            <img
+              src="https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/221704M202003_2/wooyoungmi-grey-cotton-hoodie.jpg"
+              alt=""
+            />
+          </div>
+          <div id="img3">
+            <img
+              src="https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/221704M202003_3/wooyoungmi-grey-cotton-hoodie.jpg"
+              alt=""
+            />
+          </div>
+          <div id="img4">
+            <img
+              src="https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/221704M202003_4/wooyoungmi-grey-cotton-hoodie.jpg"
+              alt=""
+            />
+          </div>
+          -->
+        </div>
+        <div id="rightDetails">
+          <div id="priceAndDiscount">
+            <div id="price"></div>
+            <div id="cutoffPrice"></div>
+            <div id="discount"></div>
+          </div>
+
+          <div id="sizeDiv">
+            <select id="sizeSelect">
+              <option value="0">SELECT A SIZE</option>
+              <option value="44">IT 44 = XXS</option>
+              <option value="46">IT 46 = XS</option>
+              <option value="48">IT 48 = S</option>
+              <option value="50">IT 50 = M</option>
+              <option value="52">IT 52 = L</option>
+              <option value="54">IT 54 = XL</option>
+              <option value="56">IT 56 = XXL</option>
+            </select>
+          </div>
+
+          <div id="productButtons">
+            <div id="addToBagButton">
+              <button id="addToBag">ADD TO BAG</button>
+            </div>
+
+            <div id="addToWishlistButton">
+              <button id="addToWishlist">ADD TO WISHLIST</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="prodGrid"></div>
+      <div id="footer"></div>
+    </div>
+  </body>
+</html>
+<script type="module">
+  import { navbar } from "../Components/navbar.js";
+  import { footer } from "../Components/footer.js";
+
+  document.getElementById("navbar").innerHTML = navbar();
+  document.getElementById("footer").innerHTML = footer();
+</script>
+<script src="../JS/product.js"></script>
