@@ -1,6 +1,6 @@
 let createaccount = () => {
     return `
-    <h5>CREATE AN ACCOUNT</h6>
+    <h5>CREATE AN ACCOUNT</h6><br>
         <form id="newform">
             <label class="label" for="email">Email address</label><br>
             <input type="email" class="AcInputs" id="email" disabled><br><br>
@@ -18,8 +18,8 @@ let createaccount = () => {
             <input type="submit" value="CREATE AN ACCOUNT" id="submit">
             <input type="button" value="BACK" id="back">
         </form>
-    <p class="tandc">When you create an SSENSE account, we collect your email and other personal data to enhance your shopping experience and, subject to your agreement, to provide you with exclusive email updates, promotions and notifications. We may also use third party search engines and social media platforms to deliver our updates, promotions and notifications to you.</p>
-    <p class="tandc">You may unsubscribe at any time.</p>
+    <p class="tandc">When you create an SSENSE account, we collect your email and other personal data to enhance your shopping experience and, subject to your agreement, to provide you with exclusive email updates, promotions and notifications. We may also use third party search engines and social media platforms to deliver our updates, promotions and notifications to you.</p><br>
+    <p class="tandc">You may unsubscribe at any time.</p><br>
     <p class="tandc">To find out more, please visit our Privacy Policy.</p>`;
 }
 

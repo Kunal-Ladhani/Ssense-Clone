@@ -1,8 +1,10 @@
 #addresschamber{
     width: 500px;
+    margin-top: 90px;
     margin-left: 15%;
     height: fit-content;
     padding: 20px;
+    margin-bottom: 300px;
 }
 #addaddress{
     display: flex;
