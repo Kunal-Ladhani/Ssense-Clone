@@ -18,15 +18,17 @@ body {
 #ssidebar {
     width: 150px;
     height: fit-content;
-    margin-top: 85px;
+    margin-top: 155px;
     margin-left: 30px;
     padding: 20px;
+    /* border: 1px solid; */
 }
 
 #acchamber {
     font-family: 'Poppins', sans-serif;
     width: 500px;
     margin: auto;
+    /* border: 1px solid; */
     margin-left: 15%;
     padding: 20px;
 }
@@ -88,4 +90,10 @@ body {
 #accountform>#email {
     border: 1px solid grey;
     cursor: not-allowed;
+}
+#navbar{
+    margin-top: 0px;
+}
+#acchamber {
+    margin-top: 100px;
 }

@@ -5,11 +5,13 @@
     font-family: 'Poppins', sans-serif;
     margin: auto;
     width: 400px;
-    margin-top: 70px;
+    /* margin-top: 70px; */
     padding: 20px;
+    margin-bottom: 260px;
 }
 
 #loginchamber>h5 {
+    margin-top: 100px;
     font-weight: bold;
     font-size: 12px;
 }
@@ -27,6 +29,8 @@
 
 .AcInputs:focus {
     outline: none;
+    color: black;
+    font-weight: bold;
 }
 
 #submit {
@@ -86,4 +90,7 @@ input[type="radio"] {
 #newform>#email {
     background-color: gainsboro;
     cursor: not-allowed;
+}
+#navbar{
+    margin-top: 0px;
 }
