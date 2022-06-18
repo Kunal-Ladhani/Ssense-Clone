@@ -166,7 +166,6 @@ let appendToProductPage = (data) => {
     data.forEach((item) => {
         let prod = document.createElement("div");
         prod.style.height = "400px";
-        prod.style.border = "1px solid red";
         prod.style.display = "flex";
         prod.style.flexDirection = "column";
 
