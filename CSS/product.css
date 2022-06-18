@@ -10,21 +10,21 @@
 }
 
 #navbar {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position: relative;
     top: 0px;
     width: 100%;
 }
 
 #footer {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     position: relative;
     bottom: 0px;
     width: 100%;
 }
 
 #prodMain {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -34,7 +34,7 @@
 #leftDetails {
     height: 100%;
     width: 550px;
-    border: 1px solid royalblue;
+    /* border: 1px solid royalblue; */
     font-size: 11px;
     position: sticky;
     top: 300px;
@@ -50,11 +50,11 @@
 #images{
     height: auto;
     width: 100%;
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
 }
 
 #images > div > img {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     margin: auto;
     height: 800px;
@@ -64,7 +64,7 @@
 #rightDetails {
     height: 200px;
     width: 600px;
-    border: 1px solid teal;
+    /* border: 1px solid teal; */
     position: sticky;
     top: 300px;
     display: flex;
