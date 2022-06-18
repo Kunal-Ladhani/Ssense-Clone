@@ -13,7 +13,7 @@ let goToHome = () => {
         alert("Sorry! Wrong Password!");
     }
     else {
-        window.location = "../HTML/landingpage.html";
+        window.location = "../index.html";
     }
 }
 document.getElementById("passform").addEventListener("submit", goToHome)
