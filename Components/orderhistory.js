@@ -11,7 +11,7 @@ let orderhistory = () =>{
     </div>
     <div id="ordercontainer">
         <div id="odetails">
-            <h5>Order history</h5>
+            <h5>ORDER HISTORY</h5>
         </div>
         <hr>
         <div id="ocontainer"></div>

@@ -10,7 +10,7 @@ let emailpref = () => {
             <a class="anchor" id="logout" href="./login.html">Logout</a>
         </div>
         <div id="acchamber">
-            <h4 class="acdetail">Email Preferences</h4><br>
+            <h3 class="acdetail">Email Preferences</h3><br>
             <p>Edit your preferences below</p>
             <h5>Account Information</h5>
             <form id="accountform">

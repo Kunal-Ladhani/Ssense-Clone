@@ -5,7 +5,7 @@
     margin-left: 10%;
     cursor: default;
 }
-#appointheader>h4{
+#appointheader>h3{
     text-align: center;
 }
 #visitingdiv, #locationdiv, #bookingdiv, #myappointmentdiv, #upcomingdiv, #pastdiv {
