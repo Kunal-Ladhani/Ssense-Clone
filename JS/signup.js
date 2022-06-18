@@ -24,7 +24,7 @@ let newSsenseUser = () => {
     thisuser.gender = gender;
     localStorage.setItem("thisUser", JSON.stringify(thisuser));
     localStorage.setItem("ssenseUser", JSON.stringify(ssenseuser));
-    window.location = "../HTML/landingpage.html";
+    window.location = "../index.html";
 }
 document.getElementById("newform").addEventListener("submit", newSsenseUser);
 document.getElementById("back").addEventListener("click", goToLogin);
