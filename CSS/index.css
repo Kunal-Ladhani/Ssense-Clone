@@ -40,8 +40,8 @@
             justify-content: space-between;
             width:91%;
             margin: auto;
-           
-            margin-top: 7.5%;
+            /* margin-top: 7.5%; */
+            padding-top: 7.5%;
         }
         div>a>img{
             height:100%;
