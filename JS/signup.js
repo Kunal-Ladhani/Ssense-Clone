@@ -33,7 +33,7 @@ let newSsenseUser = () => {
     thisuser.gender = gender;
     localStorage.setItem("thisUser", JSON.stringify(thisuser));
     localStorage.setItem("ssenseUser", JSON.stringify(ssenseuser));
-    window.location = "../index.html";
+    window.location = "../HTML/passlogin.html";
 }
 document.getElementById("newform").addEventListener("submit", newSsenseUser);
 document.getElementById("back").addEventListener("click", goToLogin);
