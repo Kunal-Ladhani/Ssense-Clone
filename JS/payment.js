@@ -64,8 +64,8 @@ function final_order(){
     window.location.href = "/index.html"
 
     let empty = JSON.parse(localStorage.getItem("cart-data"))
-    
+
     empty = []
 
-    localStorage.setItem("cart-data",JSON.stringify[empty])
+    localStorage.setItem("cart-data",JSON.stringify(empty))
 }
