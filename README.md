@@ -18,7 +18,7 @@ This project is deployed on netlify here - [Ssense Clone]()
 
 - [@Kunal-Ladhani](https://github.com/Kunal-Ladhani)
 - [@Hena-Chauhan](https://github.com/hena1019)
-- []()
+- [@Saurabh-Pagrut](https://github.com/SaurabhPagrut)
 - []()
 - []()
 - []()
@@ -28,7 +28,9 @@ This project is deployed on netlify here - [Ssense Clone]()
 The e-commerce website has the following pages and the order of flow is also the same.
 
 ## Login and Signup -
-
+1. Login Page - This page will get the email from user.
+2. Signup Page - This page will get the password and gender from the user.
+3. Login with Password - This page will check the entered Email and Password and redirect you to the Home Page.
 
 ## Home page -
 
