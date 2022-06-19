@@ -54,11 +54,13 @@ let data1 = [
 ]
 
 
-let data = JSON.parse(localStorage.getItem("cart-data"))
+let data = JSON.parse(localStorage.getItem("cart-data")) || []
 let container = document.getElementById("append_products")
 let container1 = document.getElementById("text_justify1")
 let container2 = document.getElementById("text_justify2")
 let container3 = document.getElementById("Populor_items_data")
+
+console.log(data)
 
 
 // product added to cart
@@ -67,6 +69,7 @@ function Append_data(data,container,container1,container2) {
     if(data.length<1){
         Append_null()
     }
+    else {
     container.innerHTML = null
     let total = 0
     data.forEach((el)=>{
@@ -119,6 +122,7 @@ function Append_data(data,container,container1,container2) {
         container.append(hr,product_div)
     })
     total_money(total,container1,container2)
+   }
 }
 
 // to append the total money of the products

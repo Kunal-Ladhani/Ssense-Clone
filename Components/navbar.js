@@ -1,16 +1,16 @@
 function navbar() {
   return `<div id="navbar-left">
       <div class="links">
-        <a href="/Unit-3-Project/HTML/mens.html">MENSWEAR</a>
-        <a href="/Unit-3-Project/HTML/womens.html">WOMENSWEAR</a>
+        <a href="../HTML/mens.html">MENSWEAR</a>
+        <a href="../HTML/womens.html">WOMENSWEAR</a>
         <a href="#">EVERYTHING ELSE</a>
         <!-- <a href="/">SEARCH</a> -->
         <div class="dropdown">
           <button class="dropbtn">SEARCH</button>
           <div class="dropdown-content">
             <div>
-              <a href="/Unit-3-Project/HTML/mens.html">MENSWEAR</a>
-              <a href="/Unit-3-Project/HTML/womens.html">WOMENSWEAR</a>
+              <a href="../HTML/mens.html">MENSWEAR</a>
+              <a href="../HTML/womens.html">WOMENSWEAR</a>
               <a href="#">EVERYTHING ELSE</a>
             </div>
             <input
@@ -20,7 +20,7 @@ function navbar() {
               placeholder="SEARCH"
             />
             <div id="search_btn">
-              <img src="/Unit-3-Project/images/search.svg" alt="" />
+              <img src="../Images/search.svg" alt="" />
             </div>
             <input type="checkbox" name="" id="" />
             <span>SALES ONLY</span>
