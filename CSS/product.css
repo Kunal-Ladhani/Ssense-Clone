@@ -208,11 +208,11 @@
     /* border: 1px solid greenyellow; */
 }
 
-#images > div > img {
+#mainProductImage {
     /* border: 1px solid red; */
     display: flex;
     margin: auto;
-    height: 800px;
+    height: auto;
     margin-top: 30px;
 }
 
