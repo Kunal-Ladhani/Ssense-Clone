@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/payment.css">
+    <title>Checkout | SSENCE</title>
+</head>
+<body>
+<div class="checkout_nav">SSENCE</div>
+<div class="main_checkout_div">
+    <!-- payment desc div -->
+    <div class="checkout_all_details_div">
+        <p class="margin">CHECKOUT</p>
+        <p>SHIPPING ADDRESS</p>
+        <hr class="hrmargin">
+        <div id="Address_div">
+            <div>
+                <p>First Name</p>
+                <input type="text" id="name"/>
+                <p>Street Address</p>
+                <input type="text" id="name"/>
+                <p>City</p>
+                <input type="text" id="name"/>
+                <p>Country/Region</p>
+                <input type="text" id="name"/>
+                <p>Phone</p>
+                <input type="text" id="name"/>
+            </div>
+            <div>
+                <p>Last Name</p>
+                <input type="text" id="name"/>
+                <p>Company(Optional)</p>
+                <input type="text" id="name"/>
+                <p>ZIP Or Postal Code</p>
+                <input type="text" id="name"/>
+                <p>State/Province</p>
+                <input type="text" id="name"/>
+            </div>
+        </div>
+        <div class="margin">
+        <p>SHIPPING METHOD</p>
+        <hr class="hrmargin">
+        <input type="radio" id="S_charge" name="SHIPPING_CHARGES" value="40" checked>
+        <label for="SHIPPING_CHARGES">$40.00 USD | 5 - 7 days | Express</label>
+        </div>
+        <div class="margin">
+            <form>
+                <p>PAYMENT METHOD</p>
+                <hr class="hrmargin">
+                <input type="radio" id="C_pay" name="Payment" value="Card_pay">
+                <label for="C_pay">Pay with credit or debit card <img src="https://res.cloudinary.com/ssenseweb/image/upload/v1535478719/web/checkout/visa_borderless_v2.svg"/><img src="https://res.cloudinary.com/ssenseweb/image/upload/v1535478719/web/checkout/mastercard_borderless_v2.svg"/></label><br>
+                <input type="radio" id="P_pal" name="Payment" value="Pay_pal">
+                <label for="P_pal">Pay with PayPal<img src="https://res.cloudinary.com/ssenseweb/image/upload/v1535478719/web/checkout/paypal_borderless_v2.svg" /></label><br>
+                <input type="radio" id="A_pay" name="Payment" value="Ali_pay">
+                <label for="A_pay">Pay with Alipay<img src="https://res.cloudinary.com/ssenseweb/image/upload/v1535478719/web/checkout/alipay_borderless_v2.svg"/></label>
+            </form>
+        </div>
+        <div class="margin">
+            <p>CARD DETAILS</p>
+            <hr class="hrmargin">
+            <div id="Address_div1">
+                <div>
+                    <p>Card Number</p>
+                    <input type="text" placeholder="1234 1234 1234 1234"/>
+                    <p>Cardholder's Name</p>
+                    <input type="text" placeholder=""/>
+                </div>
+                <div>
+                    <p>Expiration Date</p>
+                    <input type="text" placeholder="MM/YY" />
+                    <p>Security code</p>
+                    <input type="text" placeholder="CVC" />
+                </div>
+            </div>
+            <hr class="hrmargin1">
+        </div>
+        <p class="terms_div1">SSENSE, 333 Chabanel W, #900, Montreal, QC, CA, H2N 2E7</p>
+        <div class="terms_div">
+            <a href="https://www.ssense.com/en-in/terms-conditions"><p>Terms $ Conditions</p></a>
+            <a href="https://www.ssense.com/en-in/privacy-policy"><p>Privacy Policy</p></a>
+        </div>
+    </div>
+    <!-- order desc div -->
+    <div id="order_summary_div">
+        <p id="order_count">ORDER SUMMARY - (0) ITEM</p>
+        <hr class="hrmargin">
+        <div id="final_product_checkout_div">
+
+        </div>
+        <hr class="hrmargin">
+        <p>COUNTRY/REGION: INDIA / USE</p>
+        <hr class="hrmargin">
+        <div class="flex">
+            <div>
+                <p>Subtotal</p>
+                <p>Shipping total</p>
+            </div>
+            <div>
+                <p id="subtotal">0</p>
+                <p>$40.00</p>
+            </div>
+        </div>
+        <hr class="hrmargin">
+        <div class="flex">
+            <p>Order total (USE)</p>
+            <p id="order_total">0</p>
+        </div>
+        <p>Important NoticeOur prices do not include Duty and VAT. Please consult your country/region’s customs legislation for more information about potential additional charges.</p>
+        <button id="final_order">PLACE OEDER</button>
+    </div>
+</div>
+</body>
+</html>
+<script type="module" src="../JS/payment.js"></script>

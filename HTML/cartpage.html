@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoping Bag | SSENCE</title>
+    <link rel="stylesheet" href="../CSS/cart.css">
+    <link rel="stylesheet" href="../CSS/navbar.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+</head>
+<body>
+<div id="navbar">
+    
+</div>
+
+<div id="main_cart_div">
+    <div id="cart_data_div">
+        <div>SHOPPING BAG</div>
+        <div class="item_div">
+            <p class="item_div_p">ITEM</p>
+            <p>TOTAL</p>
+        </div>
+        <div id="append_products">
+        </div>
+    </div>
+    <div id="check_out_div">
+        <p>CHECKOUT</p>
+        <p>Enter your email to login or continue to checkout as a guest.</p>
+        <p>Email address</p>
+        <input type="email" id="mail"/>
+        <button id="payment_reload">PROCEED TO CHECKOUT</button>
+    </div>
+</div>
+<hr style="width: 55%; margin-left: 150px;">
+<div class="cart_total_div">
+    <div>
+        <p>Total</p>
+        <p>Shipping estimate</p>
+        <p class="bold">Order Total</p>
+    </div>
+    <div class="text_justify">
+        <p id="text_justify1">0</p>
+        <p>Calculated at checkout</p>
+        <p id="text_justify2" class="bold">0</p>
+    </div>
+</div>
+<div class="left">
+    <p>ADD THESE POPULOR ITEMS</p>
+    <div id="Populor_items_data"></div>
+</div>
+
+<div id="footer"></div>
+
+</body>
+</html>
+<script type="module" src="../JS/cartPage.js">
+</script>

@@ -40,7 +40,7 @@ function navbar() {
         <a href="#">ENGLISH</a>
         <a href="/Unit-3-Project/HTML/login.html" id="user_name">LOGIN</a>
         <a href="#">WISHLIST</a>
-        <a href="#"
+        <a href="../HTML/cartpage.html"
           >SHOPPING BAG (<div id="item_count"><!--append cart-items-count here--></div>)</a
         >
       </div>

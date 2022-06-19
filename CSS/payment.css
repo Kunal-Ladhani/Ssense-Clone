@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.checkout_nav{
+    text-align: center;
+    font-size: 27px;
+    font-weight: 545;
+    margin:auto;
+    background-color: #fff;
+    line-height: 55px;
+    color: #000;
+    position: sticky;
+    top: 0px;
+    margin-bottom: 40px;
+    cursor:default;
+}
+p{
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+.main_checkout_div{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.checkout_all_details_div{
+    width: 60%;
+}
+#Address_div{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-bottom: 20px;
+}
+#Address_div>div>input{
+  padding:10px 90px;
+  border:1px solid rgb(197, 197, 197);
+  margin-bottom: 10px;
+}
+.margin{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.hrmargin{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(197, 196, 196);
+}
+.input_padding_payment{
+    padding: 10px 100px 10px 0px;
+    text-align: left;
+}
+#Address_div1{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-bottom: 20px;
+}
+#Address_div1>div>input{
+    padding: 10px 170px 10px 8px;
+}
+.terms_div{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    text-align: center;
+    margin: auto;
+}
+.terms_div1{
+    display: flex;
+    justify-content: space-between;
+    width: 44%;
+    text-align: center;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+a:hover{
+    text-decoration: underline;
+}
+.hrmargin1{
+    margin-top: 70px;
+}
+#C_pay{
+    margin: 8px auto;
+}
+#P_pal{
+    margin: 8px auto;
+}
+#A_pay{
+    margin: 8px auto;
+}
+img{
+    margin-left: 10px;
+    margin-bottom: -5px;
+}
+#order_summary_div{
+    width: 30%;
+    margin-top: 30px;
+    position: sticky;
+    top: 200px;
+    position: sticky;
+    top: 30px;
+    bottom: 100px;
+}
+button{
+    padding:10px 100px;
+    border: 0px;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    margin-top: 35px;
+}
+.checkout_img_div1{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+.checkout_img_div1>img{
+    width: 10%;
+}
+.checkout_img_div2{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+#final_product_checkout_div{
+    overflow: auto;
+    height: 250px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
