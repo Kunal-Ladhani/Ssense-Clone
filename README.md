@@ -17,7 +17,7 @@ This project is deployed on netlify here - [Ssense Clone]()
 ## Team Members
 
 - [@Kunal-Ladhani](https://github.com/Kunal-Ladhani)
-- []()
+- [@Hena-Chauhan](https://github.com/hena1019)
 - []()
 - []()
 - []()
@@ -35,8 +35,8 @@ The e-commerce website has the following pages and the order of flow is also the
 
 
 ## Men's Clothing, Women's Clothing, Electronics - 
-
-
+1. You can select various products from this pages.
+2. You can even sort the products according to your comfort.
 
 ## Product Page - 
 
