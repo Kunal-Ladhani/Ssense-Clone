@@ -1,16 +1,16 @@
 function navbar() {
   return `<div id="navbar-left">
       <div class="links">
-        <a href="#">MENSWEAR</a>
-        <a href="#">WOMENSWEAR</a>
+        <a href="../HTML/mens.html">MENSWEAR</a>
+        <a href="../HTML/womens.html">WOMENSWEAR</a>
         <a href="#">EVERYTHING ELSE</a>
         <!-- <a href="/">SEARCH</a> -->
         <div class="dropdown">
           <button class="dropbtn">SEARCH</button>
           <div class="dropdown-content">
             <div>
-              <a href="#">MENSWEAR</a>
-              <a href="#">WOMENSWEAR</a>
+              <a href="../HTML/mens.html">MENSWEAR</a>
+              <a href="../HTML/womens.html">WOMENSWEAR</a>
               <a href="#">EVERYTHING ELSE</a>
             </div>
             <input
@@ -38,7 +38,7 @@ function navbar() {
     <div id="navbar-right">
       <div class="links2">
         <a href="#">ENGLISH</a>
-        <a href="#" id="user_name">LOGIN</a>
+        <a href="../HTML/login.html" id="user_name">LOGIN</a>
         <a href="#">WISHLIST</a>
         <a href="#"
           >SHOPPING BAG (<div id="item_count"><!--append cart-items-count here--></div>)</a
