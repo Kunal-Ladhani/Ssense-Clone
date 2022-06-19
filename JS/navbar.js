@@ -28,6 +28,10 @@ function updateUsername(){
     // IF USER DOES NOT EXISTS IN LS => SHOW LOGIN
 }
 
+document.querySelector("#company-icon-nav").addEventListener("click", toLandingPage);
+function toLandingPage(){
+    window.location.href = "../index.html";
+}
 
 updateUsername();
 updateCartcount();
