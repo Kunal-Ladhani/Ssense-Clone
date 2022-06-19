@@ -12,10 +12,10 @@ function Append_data(data,container,container1,container2){
     data.forEach((el)=>{
         count++
         let img = document.createElement("img")
-        img.src = el.img1
+        img.src = el.image
 
         let p1 = document.createElement("p")
-        p1.innerText = el.brand
+        p1.innerText = el.designer
 
         let p2 = document.createElement("p")
         p2.innerText = el.name
