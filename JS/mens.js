@@ -742,6 +742,7 @@ function display_products(data){
         content_div.append(designer,name,price)
 
         card.addEventListener("click",() => {
+          //console.log(el);
           sendToProductPage(el)
         });
 

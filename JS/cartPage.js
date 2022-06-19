@@ -73,7 +73,7 @@ function Append_data(data, container, container1, container2) {
 
       let product_div = document.createElement("div");
       let img = document.createElement("img");
-      img.src = el.img1;
+      img.src = el.image;
 
       let product_desc_div = document.createElement("div");
 
@@ -82,7 +82,7 @@ function Append_data(data, container, container1, container2) {
       let div = document.createElement("div");
 
       let p1 = document.createElement("p");
-      p1.innerText = el.brand;
+      p1.innerText = el.designer;
       let p2 = document.createElement("p");
       p2.innerText = el.name;
       let p3 = document.createElement("p");
