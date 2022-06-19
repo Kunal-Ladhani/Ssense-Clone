@@ -33,6 +33,7 @@ function navbar() {
       <img
         src="https://res.cloudinary.com/ssenseweb/image/upload/v1471963917/web/ssense_logo_v2.svg"
         alt="iconn ssense"
+        id="company-icon-nav"
       />
     </div>
     <div id="navbar-right">
