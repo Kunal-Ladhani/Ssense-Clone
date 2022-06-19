@@ -10,46 +10,46 @@ document.getElementById("navbar").innerHTML = navbar()
 
 let data1 = [
     {
-        brand:"CLOUD7",
+        designer:"CLOUD7",
         name:"Black Medium Hyde Park Collar",
         price:85,
-        img1:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_706,w_470/c_scale,h_280/f_auto,dpr_1.0/221226M668013_1/cloud7-black-medium-hyde-park-collar.jpg"
+        image:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_706,w_470/c_scale,h_280/f_auto,dpr_1.0/221226M668013_1/cloud7-black-medium-hyde-park-collar.jpg"
     },
     {
-        brand:"MORE JOY",
+        designer:"MORE JOY",
         name:"White 'Sex' Mug",
         price:21,
-        img1:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_706,w_470/c_scale,h_280/f_auto,dpr_1.0/221555M610002_1/more-joy-white-sex-mug.jpg"
+        image:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_706,w_470/c_scale,h_280/f_auto,dpr_1.0/221555M610002_1/more-joy-white-sex-mug.jpg"
     },
     {
-        brand:"JUSTINE CLENQUET",
+        designer:"JUSTINE CLENQUET",
         name:"Silver Laura Earrings",
         price:70,
-        img1:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_706,w_470/c_scale,h_280/f_auto,dpr_1.0/221235F022054_1/justine-clenquet-silver-laura-earrings.jpg"
+        image:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_706,w_470/c_scale,h_280/f_auto,dpr_1.0/221235F022054_1/justine-clenquet-silver-laura-earrings.jpg"
     },
     {
-        brand:"JUSTINE CLENQUET",
+        designer:"JUSTINE CLENQUET",
         name:"Silver & Gold Tori Earrings",
         price:67,
-        img1:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_706,w_470/c_scale,h_280/f_auto,dpr_1.0/221235F022044_1/justine-clenquet-silver-and-gold-tori-earrings.jpg"
+        image:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_706,w_470/c_scale,h_280/f_auto,dpr_1.0/221235F022044_1/justine-clenquet-silver-and-gold-tori-earrings.jpg"
     },
     {
-        brand:"JUSTINE CLENQUET",
+        designer:"JUSTINE CLENQUET",
         name:"SSENSE Exclusive Silver & Pink Vickie Earrings",
         price:54,
-        img1:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_706,w_470/c_scale,h_280/f_auto,dpr_1.0/221235F022059_1/justine-clenquet-ssense-exclusive-silver-and-pink-vickie-earrings.jpg"
+        image:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_706,w_470/c_scale,h_280/f_auto,dpr_1.0/221235F022059_1/justine-clenquet-ssense-exclusive-silver-and-pink-vickie-earrings.jpg"
     },
     {
-        brand:"FARIS",
+        designer:"FARIS",
         name:"Gold Tear Pendant Necklace",
         price:75,
-        img1:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_706,w_470/c_scale,h_280/f_auto,dpr_1.0/221069F023010_1/faris-gold-tear-pendant-necklace.jpg"
+        image:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_706,w_470/c_scale,h_280/f_auto,dpr_1.0/221069F023010_1/faris-gold-tear-pendant-necklace.jpg"
     },
     {
-        brand:"MASTER-PIECE CO",
+        designer:"MASTER-PIECE CO",
         name:"Brown Carabiner Keychain",
         price:39,
-        img1:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_706,w_470/c_scale,h_280/f_auto,dpr_1.0/221401M148003_1/master-piece-co-brown-carabiner-keychain.jpg"
+        image:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_706,w_470/c_scale,h_280/f_auto,dpr_1.0/221401M148003_1/master-piece-co-brown-carabiner-keychain.jpg"
     },
 ]
 
@@ -77,7 +77,7 @@ function Append_data(data,container,container1,container2) {
 
         let product_div = document.createElement("div")
         let img = document.createElement("img")
-        img.src = el.img1
+        img.src = el.image
 
         let product_desc_div = document.createElement("div")
 
@@ -86,7 +86,7 @@ function Append_data(data,container,container1,container2) {
         let div = document.createElement("div")
 
         let p1 = document.createElement("p")
-        p1.innerText = el.brand
+        p1.innerText = el.designer
         let p2 = document.createElement("p")
         p2.innerText = el.name
         let p3 = document.createElement("p")
@@ -156,10 +156,10 @@ function Popular_data(data1,container3) {
 
     data1.forEach((el)=>{
         let img = document.createElement("img")
-        img.src = el.img1
+        img.src = el.image
 
-        let brand = document.createElement("p")
-        brand.innerText = el.brand
+        let designer = document.createElement("p")
+        designer.innerText = el.designer
 
         let name = document.createElement("p")
         name.innerText = el.name
@@ -174,7 +174,7 @@ function Popular_data(data1,container3) {
         })
 
         let div = document.createElement("div")
-        div.append(img,brand,name,price,AddToBag)
+        div.append(img,designer,name,price,AddToBag)
 
         container3.append(div)
     })
