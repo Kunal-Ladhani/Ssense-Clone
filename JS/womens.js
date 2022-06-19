@@ -2270,3 +2270,4 @@ let sendToProductPage = (elem) => {
   localStorage.setItem("productData",JSON.stringify(elem));
   window.location.href="../HTML/product.html";
 }
+

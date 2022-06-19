@@ -33,12 +33,13 @@ function navbar() {
       <img
         src="https://res.cloudinary.com/ssenseweb/image/upload/v1471963917/web/ssense_logo_v2.svg"
         alt="iconn ssense"
+        id="company-icon-nav"
       />
     </div>
     <div id="navbar-right">
       <div class="links2">
         <a href="#">ENGLISH</a>
-        <a href="/Unit-3-Project/HTML/login.html" id="user_name">LOGIN</a>
+        <a href="../HTML/login.html" id="user_name">LOGIN</a>
         <a href="#">WISHLIST</a>
         <a href="../HTML/cartpage.html"
           >SHOPPING BAG (<div id="item_count"><!--append cart-items-count here--></div>)</a
