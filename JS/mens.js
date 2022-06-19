@@ -1,3 +1,12 @@
+import {navbar} from "../Components/navbar.js";
+import {footer} from "../Components/footer.js";
+
+let navdiv = document.getElementById("navbar");
+navdiv.innerHTML = navbar();
+
+let footdiv = document.getElementById("footer");
+footdiv.innerHTML = footer();
+
 let category
 
 let categories = document.querySelectorAll(".elements>a")
@@ -733,6 +742,7 @@ function display_products(data){
         content_div.append(designer,name,price)
 
         card.addEventListener("click",() => {
+          //console.log(el);
           sendToProductPage(el)
         });
 

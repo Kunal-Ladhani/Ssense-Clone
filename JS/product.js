@@ -151,8 +151,22 @@ document.getElementById("addToBag").addEventListener("click",() => {
     addToBag(product);
 });
 
+let data = JSON.parse(localStorage.getItem("cart-data")) || [];
 let addToBag = (item) => {
     console.log(item.name + " added to Bag");
+    
+    let priceString = [...item.price];
+    let newPrice = '';
+    priceString.forEach((ele) => {
+        if(ele != '$') {
+            newPrice += ele;
+        }
+    });
+    item.price = newPrice;
+    
+    data.push(item);
+    localStorage.setItem("cart-data",JSON.stringify(data));
+    window.location.href = "../HTML/cartpage.html";
 }
 
 let addToWishlist = (item) => {

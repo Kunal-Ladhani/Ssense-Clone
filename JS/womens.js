@@ -1,3 +1,12 @@
+import {navbar} from "../Components/navbar.js";
+import {footer} from "../Components/footer.js";
+
+let navdiv = document.getElementById("navbar");
+navdiv.innerHTML = navbar();
+
+let footdiv = document.getElementById("footer");
+footdiv.innerHTML = footer();
+
 let category;
 
 let categories = document.querySelectorAll(".elements>a")
@@ -2261,3 +2270,4 @@ let sendToProductPage = (elem) => {
   localStorage.setItem("productData",JSON.stringify(elem));
   window.location.href="../HTML/product.html";
 }
+
