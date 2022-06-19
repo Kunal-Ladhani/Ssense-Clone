@@ -62,4 +62,10 @@ document.getElementById("final_order").addEventListener("click",final_order)
 function final_order(){
     alert("Your Order Placed Successfully")
     window.location.href = "/index.html"
+
+    let empty = JSON.parse(localStorage.getItem("cart-data"))
+
+    empty = []
+
+    localStorage.setItem("cart-data",JSON.stringify(empty))
 }
