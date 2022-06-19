@@ -36,7 +36,7 @@ The e-commerce website has the following pages and the order of flow is also the
 
 
 
-## Men's Clothing, Women's Clothing, Electronics - 
+## Men's Clothing, Women's Clothing - 
 1. You can select various products from this pages.
 2. You can even sort the products according to your comfort.
 
