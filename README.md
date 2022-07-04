@@ -19,9 +19,8 @@ This project is deployed on netlify here - [Ssense Clone]()
 - [@Kunal-Ladhani](https://github.com/Kunal-Ladhani)
 - [@Hena-Chauhan](https://github.com/hena1019)
 - [@Saurabh-Pagrut](https://github.com/SaurabhPagrut)
-- []()
-- []()
-- []()
+- [@Lalit-Kumar](https://github.com/lalitk1997)
+- [@Shubham-Agnihotri](https://github.com/theagni0070)
 
 # Description -
 
