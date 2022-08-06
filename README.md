@@ -7,7 +7,7 @@ This is a e-commerce website clone that we made during the construct week at Mas
 
 ## Deployment
 
-This project is deployed on netlify here - [Ssense Clone]()
+This project is deployed on netlify here - [Ssense Clone](https://ssense-clone-masai.netlify.app/)
 
 ## Authors
 
