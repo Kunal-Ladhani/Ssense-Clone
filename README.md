@@ -3,7 +3,7 @@
 
 ## Ssense Clone
 
-This is a e-commerce website clone that we made during the construct week at Masai School. It was completed within 6 days.
+SSENSE is a multi-brand retailer based in Montreal, Canada specialising in the sale of designer fashion and high end streetwear. It was completed within 6 days.
 
 ## Deployment
 
