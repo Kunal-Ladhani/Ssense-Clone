@@ -1,7 +1,4 @@
-# Unit-3-Project
-
-
-## Ssense Clone
+# Ssense Clone
 
 Ssense (https://www.ssense.com/en-in) is a multi-brand retailer based in Montreal, Canada specialising in the sale of designer fashion and high end streetwear, it sales men's and women's clothes and accessories worldwide. The project was completed within 6 days.
 
