@@ -42,11 +42,13 @@ The e-commerce website has the following pages and the order of flow is also the
 ## Product Page - 
 
 1. This page gets the data about that specific product from the cateogory pages and displays it in detail here. 
-
-3. You can add the product to your cart. The price / cutoff price / discount etc all are displayed here.
+2. You can add the product to your cart. The price / cutoff price / discount etc all are displayed here.
 
 ## Cart Page - 
 
-
+1. User address details and delivery preferences are provided by users.
 
 ## Payment page - 
+
+1. Multiple payment options are provided to users for payment.
+2. User enter details based on their payment preferences and then order is completed.
